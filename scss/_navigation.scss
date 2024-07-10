@@ -1,0 +1,11 @@
+.Navigation{
+    color: $first-color;
+    // color: red;
+
+    &__item{
+        color: $second-color;
+        // color: blue;
+        &__link{ text-decoration: none;
+        }
+    }
+}

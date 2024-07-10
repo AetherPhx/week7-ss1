@@ -1,0 +1,1 @@
+{"version":3,"sources":["_reset.scss","styles.css","_navigation.scss","_global-variables.scss"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,UAAA;EACA,SAAA;ACCJ;;ADEA;EACI,yBAAA;EACA,WAAA;EACA,yCAAA;ACCJ;;ACVA;EACI,UCDU;AFcd;ACVI;EACI,WCJO;AFgBf;ACVQ;EAAS,qBAAA;ADajB","file":"styles.css"}
