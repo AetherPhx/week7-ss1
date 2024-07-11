@@ -1,0 +1,65 @@
+header{
+    background-color: $color-bg;
+    width: 100%;
+    max-width: 1500px;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.search, .download, .delivery{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.search{
+    background-color: #fff;
+    height: 100%;
+    max-width: 80%;
+    padding: 10px;
+
+    gap: 10px;
+
+    &__input{
+        width: 100%;
+        border: none;
+        border-right: 1px solid #acacac67;
+    }
+
+    &__button{
+        color: #acacac67;
+        font-weight: $font-weight-light;
+    }
+}
+
+.download{ 
+    gap: 10px;
+
+    &__icon{ color: red;
+    }
+    &__text{ font-weight: $font-weight-bold;
+    }
+}
+
+.delivery{
+    gap: 10px;
+
+    &__icon{ font-weight: $font-weight-light;
+    }
+}
+
+.nav{
+    display: flex;
+    align-items: flex-end;
+
+    &__list{ gap: 15px;
+    }
+}
+
+.account{
+    gap: 30px;
+}

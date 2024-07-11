@@ -1,0 +1,24 @@
+p{
+    font-family: $font-fam-text;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-normal;
+    color: $color-text;
+}
+
+ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    
+    li{
+        list-style: none;
+        text-align: center;
+        a{ text-decoration: none;
+        }
+    }
+}
+
+.small{ 
+    font-size: $font-size-small;
+    font-weight: $font-weight-light;
+}

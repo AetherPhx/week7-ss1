@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+p {
+  font-family: "Open Sans, sans-serif";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.small {
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+header {
+  background-color: #ffe600;
+  width: 100%;
+  max-width: 1500px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.search, .download, .delivery {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.search {
+  background-color: #fff;
+  height: 100%;
+  max-width: 80%;
+  padding: 10px;
+  gap: 10px;
+}
+.search__input {
+  width: 100%;
+  border: none;
+  border-right: 1px solid rgba(172, 172, 172, 0.4039215686);
+}
+.search__button {
+  color: rgba(172, 172, 172, 0.4039215686);
+  font-weight: 200;
+}
+
+.download {
+  gap: 10px;
+}
+.download__icon {
+  color: red;
+}
+.download__text {
+  font-weight: 800;
+}
+
+.delivery {
+  gap: 10px;
+}
+.delivery__icon {
+  font-weight: 200;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+}
+.nav__list {
+  gap: 15px;
+}
+
+.account {
+  gap: 30px;
+}/*# sourceMappingURL=example_styles.css.map */
